@@ -1,0 +1,20 @@
+amicable_numbers = []
+
+for i in range(1, 10000):
+    proper_divisors = []
+    number_divisors = []
+    for j in range(1, i):
+        if i % j == 0:
+            proper_divisors.append(j)
+    number = sum(proper_divisors)
+    for k in range(1,number):
+        if number % k == 0:
+            number_divisors.append(k)
+    if sum(number_divisors) == i and i != number:
+        amicable_numbers.append(i)
+
+print amicable_numbers
+print sum(amicable_numbers)
+        
+        
+                

@@ -1,0 +1,11 @@
+def create_chain(n):
+    chain = [n]
+    while n != 1:
+        if n % 2 == 1:
+            n = 3n+1
+        else:
+            n = n/2
+        chain.append(n)
+    return chain
+
+print create_chain(150)
