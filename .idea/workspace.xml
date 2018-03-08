@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73dae1c-3d50-4c0a-b3a7-b49bc848a1a7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob62.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob52.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,14 +62,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob62.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PEprob62.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PEprob62.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEprob52.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PEprob52.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +117,7 @@
         <option value="$PROJECT_DIR$/PEprob61.py" />
         <option value="$PROJECT_DIR$/PEprob63.py" />
         <option value="$PROJECT_DIR$/PEprob62.py" />
+        <option value="$PROJECT_DIR$/PEprob52.py" />
       </list>
     </option>
   </component>
@@ -159,25 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PEprob62">
-    <configuration name="PEprob145" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Project Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob145.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.PEprob52">
     <configuration name="PEprob51" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,6 +184,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project Euler" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob51.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="PEprob52" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Project Euler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob52.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,19 +262,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.PEprob145" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PEprob51" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PEprob61" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PEprob63" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PEprob62" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PEprob51" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PEprob61" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PEprob63" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PEprob62" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PEprob52" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PEprob62" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PEprob63" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PEprob61" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PEprob51" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PEprob145" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PEprob52" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PEprob62" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PEprob63" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PEprob61" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PEprob51" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520528664802</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solved 62">
+      <created>1520532809288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520532809288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -340,7 +358,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30108696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30108696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -365,7 +383,8 @@
     <MESSAGE value="solved prob 61" />
     <MESSAGE value="cleaned prob 61" />
     <MESSAGE value="Solved 63" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved 63" />
+    <MESSAGE value="Solved 62" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 62" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,11 +542,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PEprob62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEprob52.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
