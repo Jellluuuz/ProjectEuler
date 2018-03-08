@@ -25,13 +25,3 @@ for i in range(0,100):
             numbers.append(j**i)
 print len(numbers)
 
-
-
-'''
-if __name__ == "__main__":
-    t = time.time()
-    p = Pool(7)
-    L = p.map(num_check, range(0, 10**7))
-    print sum(L)
-    print time.time() - t
-'''
