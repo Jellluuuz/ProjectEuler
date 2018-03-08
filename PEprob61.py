@@ -65,26 +65,4 @@ for i in total_numbers[0]:
                                                                 print i + j + k + l + m + n
 
 
-
-'''
-for i in real_triangle:
-    for j in real_square:
-        if str(i)[-2:] == str(j)[:2]:
-            for k in real_pentagonal:
-                if str(j)[-2:] == str(k)[:2]:
-                    for l in real_hexagonal:
-                        if str(k)[-2:] == str(l)[:2]:
-                            for m in real_heptagonal:
-                                if str(l)[-2:] == str(m)[:2]:
-                                    for n in real_octagonal:
-                                        if str(m)[-2:] == str(n)[:2] and str(n)[-2:] == str(i)[:2]:
-
-                                            print i
-                                            print j
-                                            print k
-                                            print l
-                                            print m
-                                            print n
-'''
-
 print time.time() - t
