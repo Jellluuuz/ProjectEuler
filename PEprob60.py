@@ -67,7 +67,7 @@ for i in primes:
                        for m in [q for q, x in enumerate(Check_matrix[primes.index(i), ...]) if x]:
                             if Check_matrix[j,m] and Check_matrix[k,m] and Check_matrix[l,m]:
                                 gucci_primes.append([i, primes[j], primes[k], primes[l],primes[m]])
-
+                                print time.time() -t
 
 print gucci_primes
 print sum(gucci_primes[0])
