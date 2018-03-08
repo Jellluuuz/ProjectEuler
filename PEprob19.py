@@ -7,7 +7,7 @@ acc = 0 #accumulator
 for year in range(1901, 2001):
     for month in range(12):
         m = months[month] # get month length
-        if day == 0: 
+        if day == 0:
             acc += 1
         #if month is Feb and its a leap year, add one to its length
         if m == 28 and year % 4 == 0:
