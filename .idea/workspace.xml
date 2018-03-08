@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73dae1c-3d50-4c0a-b3a7-b49bc848a1a7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob120.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob577.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PEprob19.py" afterPath="$PROJECT_DIR$/PEprob19.py" />
-      <change beforePath="$PROJECT_DIR$/PEprob97.py" afterPath="$PROJECT_DIR$/PEprob97.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob97.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PEprob97.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PEprob97.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEprob577.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PEprob577.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/PEprob87.py" />
         <option value="$PROJECT_DIR$/PEprob120.py" />
         <option value="$PROJECT_DIR$/PEprob97.py" />
+        <option value="$PROJECT_DIR$/PEprob577.py" />
       </list>
     </option>
   </component>
@@ -161,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PEprob97">
+  <component name="RunManager" selected="Python.PEprob577">
     <configuration name="PEprob120" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +189,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PEprob19" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PEprob577" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -192,7 +201,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob577.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,19 +262,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.PEprob19" />
-      <item index="1" class="java.lang.String" itemvalue="Python.randomzooi" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PEprob87" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PEprob120" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PEprob97" />
+      <item index="0" class="java.lang.String" itemvalue="Python.randomzooi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PEprob87" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PEprob120" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PEprob97" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PEprob577" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PEprob97" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PEprob120" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PEprob87" />
-        <item index="3" class="java.lang.String" itemvalue="Python.randomzooi" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PEprob19" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PEprob577" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PEprob97" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PEprob120" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PEprob87" />
+        <item index="4" class="java.lang.String" itemvalue="Python.randomzooi" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520536702088</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Solved 97 &amp; 120">
+      <created>1520549381672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1520549381672</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -399,7 +415,8 @@
     <MESSAGE value="Solved 52" />
     <MESSAGE value="Solved 74" />
     <MESSAGE value="Solved 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved 19" />
+    <MESSAGE value="Solved 97 &amp; 120" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 97 &amp; 120" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,6 +542,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -616,8 +634,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PEprob97.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEprob577.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
