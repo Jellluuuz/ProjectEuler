@@ -1,6 +1,6 @@
 import time
 
-N = 100000
+N = 10000
 
 def create_triangle_list(k):
     return [i*(i+1)/2 for i in range(1, k)]
@@ -12,6 +12,7 @@ def create_pentagonal_list(k):
 
 def create_hexagonal_list(k):
     return [i*(2*i-1) for i in range(1, k)]
+
 
 def check_pentagonal(k):
     if (float((1./2 + math.sqrt(1./4 + 6*k)))/3).is_integer() and float((1./2 + math.sqrt(1./4 + 6*k)))/3 > 0:
@@ -29,6 +30,7 @@ def check_hexagonal(k):
         return True
     else:
         return False
+
 
 t = time.time()
 
@@ -50,4 +52,4 @@ for i in pentagonal_list:
 
 print correct_number
 
-print t-time.time()
+print time.time() - t

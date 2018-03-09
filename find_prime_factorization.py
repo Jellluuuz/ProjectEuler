@@ -72,11 +72,15 @@ def get_prime_factors(n, primelist):
     return fs
 
 
-def is_prime(n):
-    primes_list = prime_sieve(int(math.sqrt(n)), [])
-    for p in primes_list:
-        if n % p == 0:
-            return False
+def is_prime(n,primes_list):
+#    primes_list = prime_sieve(int(math.sqrt(n)), [])
     if n == 1:
         return False
+    for p in primes_list:
+        if p <= math.sqrt(n):
+            if n % p == 0:
+                return False
+        else:
+            return True
+
     return True

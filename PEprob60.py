@@ -9,13 +9,13 @@ import numpy as np
 #        return False
 #    else:
 #        return True
-
+primes_check = prime_sieve(10**5,[])
 def concat(a):
     for i in a:
         temp = list(a)
         temp.remove(i)
         for j in temp:
-            if not is_prime(int(str(i) + str(j))):
+            if not is_prime(int(str(i) + str(j)), primes_check):
                 return False
     return True
 
@@ -30,8 +30,8 @@ def append_check(a):
 
 t = time.time()
 
-primes = prime_sieve(7000, [])
-
+primes = prime_sieve(10000, [])
+#prime_list = prime_sieve(10**5,[])
 Check_matrix = np.zeros((len(primes),len(primes)))
 
 for i in primes:
@@ -67,8 +67,8 @@ for i in primes:
                        for m in [q for q, x in enumerate(Check_matrix[primes.index(i), ...]) if x]:
                             if Check_matrix[j,m] and Check_matrix[k,m] and Check_matrix[l,m]:
                                 gucci_primes.append([i, primes[j], primes[k], primes[l],primes[m]])
-
+                                print time.time() -t
 
 print gucci_primes
-
+print sum(gucci_primes[0])
 print 'time is %f' % (time.time()-t)
