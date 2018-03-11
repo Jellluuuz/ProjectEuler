@@ -86,9 +86,3 @@ def is_prime(n,primes_list):
 
     return True
 
-
-t = time.time()
-
-prime_list = prime_sieve(10**7,[])
-
-print time.time() - t
