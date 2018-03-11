@@ -1,5 +1,5 @@
 import math
-
+import time
 
 # return a dict or a list of primes up to N
 # create full prime sieve for N=10^6 in 1 sec
@@ -73,7 +73,8 @@ def get_prime_factors(n, primelist):
 
 
 def is_prime(n,primes_list):
-#    primes_list = prime_sieve(int(math.sqrt(n)), [])
+    if primes_list is None:
+        primes_list = prime_sieve(int(math.sqrt(n)), [])
     if n == 1:
         return False
     for p in primes_list:
@@ -84,3 +85,10 @@ def is_prime(n,primes_list):
             return True
 
     return True
+
+
+t = time.time()
+
+prime_list = prime_sieve(10**7,[])
+
+print time.time() - t
