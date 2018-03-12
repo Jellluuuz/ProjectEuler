@@ -1,62 +1,138 @@
-d = {}
-d[1] = 3
-d[2] = 3
-d[3] = 5
-d[4] = 4
-d[5] = 4
-d[6] = 3
-d[7] = 5
-d[8] = 5
-d[9] = 4
-#36
-d[10] = 3
-d[11] = 6
-d[12] = 6
-d[13] = 8
-d[14] = 8
-d[15] =7
-d[16] = 7
-d[17] = 9
-d[18] = 8
-d[19] = 8
-d[20] = 6
-#76
-#21:29 = 89
-d[30] = 6
-#31:39 = 89
-d[40] = 5
-#41:49 = 36 + 45 = 81
-d[50] = 5
-#51:59 = 36 + 45 = 81
-d[60] = 5
-#61:69 = 36 + 45 = 81
-d[70] = 7
-#71:79 = 36 + 63 = 99
-d[80] = 6
-#81:89 = 36 + 53 = 89
-d[90] = 6
-#91:99 = 36 + 53 = 89
-d[100] = 10
+# Create the lists of word-equivalents from 1-19, then one for the tens group.
+# Finally, a list of the (for lack of a better word) "zero-groups".
 
-#1-99 = 36 + 76 +89 + 6 + 89 + 5 + 81 + 5 + 81 + 5 + 81 + 7 + 99 + 6 + 89 + 6 + 89 = 850
-#100  = 10
-#101-199 = 850 + 13*99 = 2137
-#200 = 10
-#201-299 = 2137
-#300 = 12
-#301-399 = 850 + 15*99 = 2335
-#400 = 11
-#401-499 = 850 + 14*99 = 2236
-#500 = 11
-#501-599 = 850 + 14*99 = 2236
-#600 = 9
-#601-699 = 850 + 13*99 = 2137
-#700 = 12 
-#701-799 = 850 + 15 *99 = 2335
-#800 = 12
-#801-899 = 850 + 15*99 = 2335
-#900 = 11
-#901-999 = 850 + 14*99 = 2236
-#1000 = 11
+ByOne = [
+"zero",
+"one",
+"two",
+"three",
+"four",
+"five",
+"six",
+"seven",
+"eight",
+"nine",
+"ten",
+"eleven",
+"twelve",
+"thirteen",
+"fourteen",
+"fifteen",
+"sixteen",
+"seventeen",
+"eighteen",
+"nineteen"
+]
 
-#SUM = 21083
+ByTen = [
+"zero",
+"ten",
+"twenty",
+"thirty",
+"forty",
+"fifty",
+"sixty",
+"seventy",
+"eighty",
+"ninety"
+]
+
+zGroup = [
+"",
+"thousand",
+"million",
+"billion",
+"trillion",
+"quadrillion",
+"quintillion",
+"sextillion",
+"septillion",
+"octillion",
+"nonillion",
+"decillion",
+"undecillion",
+"duodecillion",
+"tredecillion",
+"quattuordecillion",
+"sexdecillion",
+"septendecillion",
+"octodecillion",
+"novemdecillion",
+"vigintillion"
+]
+
+#strNum = raw_input("Please enter an integer:\n>> ")
+
+# A recursive function to get the word equivalent for numbers under 1000.
+
+def subThousand(inputNum):
+    num = int(inputNum)
+    if 0 <= num <= 19:
+        return ByOne[num]
+    elif 20 <= num <= 99:
+        if inputNum[-1] == "0":
+            return ByTen[int(inputNum[0])]
+        else:
+            return ByTen[int(inputNum[0])] + "-" + ByOne[int(inputNum[1])]
+    elif 100 <= num <= 999:
+        rem = num % 100
+        dig = num / 100
+        if rem == 0:
+            return ByOne[dig] + " hundred"
+        else:
+            return ByOne[dig] + " hundred and " + subThousand(str(rem))
+
+# A looping function to get the word equivalent for numbers above 1000
+# by splitting a number by the thousands, storing them in a list, and
+# calling subThousand on each of them, while appending the correct
+# "zero-group".
+
+def thousandUp(inputNum):
+    num = int(inputNum)
+    arrZero = splitByThousands(num)
+    lenArr = len(arrZero) - 1
+    resArr = []
+    for z in arrZero[::-1]:
+        wrd = subThousand(str(z)) + " "
+        zap = zGroup[lenArr] + ", "
+        if wrd == " ":
+            break
+        elif wrd == "zero ":
+            wrd, zap = "", ""
+        resArr.append(wrd + zap)
+        lenArr -= 1
+    res = "".join(resArr).strip()
+    if res[-1] == ",": res = res[:-1]
+    return res
+
+# Function to return a list created from splitting a number above 1000.
+
+def splitByThousands(inputNum):
+    num = int(inputNum)
+    arrThousands = []
+    while num != 0:
+        arrThousands.append(num % 1000)
+        num /= 1000
+    return arrThousands
+
+### Last part is pretty much just the output.
+
+sum = 0
+for i in range(1,1001):
+    strNum = str(i)
+
+    intNum = int(strNum)
+
+    if intNum < 0:
+        print "Minus",
+        intNum *= -1
+        strNum = strNum[1:]
+
+
+    if intNum < 1000:
+        sum += len((subThousand(strNum)).replace('-','').replace(' ',''))
+    else:
+        sum += len((thousandUp(strNum)).replace('-', '').replace(' ', ''))
+        #print thousandUp(strNum)
+
+print sum
