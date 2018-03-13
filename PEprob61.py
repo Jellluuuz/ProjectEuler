@@ -36,7 +36,7 @@ for i in total_numbers[0]:
     for q1 in range(1,6):
         for j in total_numbers[q1]:
             if str(i)[-2:] == str(j)[:2]:
-                for q2 in range(1,6):
+                for q2 in range(1, 6):
                     if q1 == q2:
                         continue
                     for k in total_numbers[q2]:
@@ -46,7 +46,7 @@ for i in total_numbers[0]:
                                     continue
                                 for l in total_numbers[q3]:
                                     if str(k)[-2:] == str(l)[:2]:
-                                        for q4 in range(1,6):
+                                        for q4 in range(1, 6):
                                             if q4 == q1 or q4 == q2 or q4 == q3:
                                                 continue
                                             for m in total_numbers[q4]:

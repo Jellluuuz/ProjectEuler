@@ -1,5 +1,10 @@
-import numpy as np
+import time
 
-for i in range(1,100):
-    path = np.zeros(len(i))
-    for i in path
+
+d = {}
+for i in range(3,101):
+    d[i] = 0
+d[2] = 1
+
+for i in range(3,101):
+
