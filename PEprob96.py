@@ -222,6 +222,23 @@ def valid_solution(sudoku_to_check):
     return True
 
 
+def check_attempt_possible(poss_mat_to_check, i ,j, val):
+    poss_mat_copy = copy.deepcopy(poss_mat_to_check)
+    poss_mat_copy = clean_poss_mat(poss_mat_copy, i, j, val)
+    for row in range(9):
+        for column in range(9):
+            number_of_poss = 0
+            for k in range(9):
+                if poss_mat_copy != 0:
+                    number_of_poss += 1
+                    break
+            if number_of_poss == 0:
+                return False
+    return True
+
+
+
+
 def solve(sudoku_to_solve, possibility_mat):
     loc = 0
     sudoku_to_solve = copy.deepcopy(sudoku_to_solve)
@@ -249,27 +266,50 @@ def solve(sudoku_to_solve, possibility_mat):
                 solve_counter += 1
     if solve_counter != 0:
         print 'Beware, this SuDoku is not fully solved'
-    return sudoku_to_solve
+    return sudoku_to_solve, possibility_mat
 
 
-def test_recursion(sudoku_to_recurse, poss_matrix):
+def test_recursion(sudoku_to_recurse, poss_mat):
     solve_counter = 0
     for i in range(9):
         for j in range(9):
             if sudoku_to_recurse[i][j] == 0:
                 solve_counter += 1
-    if solve_counter == 0 and valid_solution(sudoku_to_recurse):
-        return sudoku_to_recurse
+    if solve_counter == 0:
+        if valid_solution(sudoku_to_recurse):
+            return sudoku_to_recurse
+        else:
+            return None
+    for i in range(9):
+        for j in range(9):
+            for k in range(9):
+                if poss_mat[i][j][k] != 0:
+                    if check_attempt_possible(poss_mat, i, j, poss_mat[i][j][k]):
+                        temp_sudoku = copy.deepcopy(sudoku_to_recurse)
+                        temp_sudoku[i, j] = poss_mat[i][j][k]
+                        temp_poss_mat = clean_poss_mat(poss_mat, i, j, poss_mat[i][j][k])
+                        return test_recursion(temp_sudoku, temp_poss_mat)
+                else:
+                    return
+
     # DOE DE RECURSIE HIER TOEVOEGEN DOEN!!!!
 
 
 t = time.time()
 
+print sudoku_dict[48]
+for i in range(49):
+    sudoku = sudoku_dict[i]
+    poss_mat = create_poss_mat(sudoku)
+    print '---'
+    print i
+    sudoku, poss_mat = solve(sudoku, poss_mat)
+'''
 sudoku = sudoku_dict[0]
 print sudoku
 poss_mat = create_poss_mat(sudoku)
 solution = solve(sudoku, poss_mat)
-print test_recursion(solution, poss_mat)
-
+print test_recursion(sudoku, poss_mat)
+'''
 
 # sum(solution[0][0:3])   <-- het op te tellen deel per sudoku
