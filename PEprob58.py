@@ -1,7 +1,6 @@
 from find_prime_factorization import prime_sieve
 from find_prime_factorization import is_prime
 import time
-import math
 
 t = time.time()
 prime_list = prime_sieve(10**5, [])
