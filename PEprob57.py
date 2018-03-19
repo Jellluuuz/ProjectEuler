@@ -8,6 +8,7 @@ deci_fracs = []
 a = Fraction(1./2)
 for i in range(1000):
     deci_fracs.append(str(1 + a))
+    a = 1./(2+a)
     a = Fraction(str(1./(2+a))).limit_denominator()
     print a
 

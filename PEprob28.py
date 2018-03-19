@@ -14,4 +14,6 @@ while i < 1001**2-1:
         i += j
         sub_count += 1
 
+print numbers[:20]
+
 print S + numbers[i]
