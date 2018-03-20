@@ -68,6 +68,8 @@ def get_prime_factors(n, primelist):
             count += 1
         if count > 0:
             fs.append((p, count))
+        if n == 1:
+            return fs
 
     return fs
 
