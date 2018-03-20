@@ -44,7 +44,7 @@ def check_better(sum_matrix, j):
     return sum_matrix
 
 
-for j in range(1,80):
+for j in range(1, 80):
     sum_matrix = one_step_right(sum_matrix, j)
     while True:
         temp = copy.deepcopy(sum_matrix)
