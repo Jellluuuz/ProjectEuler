@@ -33,11 +33,11 @@ def find_min(my_list):
 
 t = time.time()
 # not below 10**6
-N = 10**7
+N = 10**5
 prime_list = prime_sieve(N, [])
 print time.time() - t
 valid_permutes = []
-for i in range(10**6, N):
+for i in range(2, N):
     temp = direct_totient_function(i)
     if check_permutation(i, temp):
         print i
