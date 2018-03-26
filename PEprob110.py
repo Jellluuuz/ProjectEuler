@@ -14,24 +14,12 @@ def number_of_poss_sols(n):
         number_of_sols = p / 2
     return number_of_sols
 
-''' 
-prime_list = prime_sieve(10**8, [])
-t = time.time()
-n = 1
-while True:
-    temp = number_of_poss_sols(n)
-    if n == 123456:
-        print temp
-        print n
-        break
-    n += 1
-'''
 t = time.time()
 
-prime_list = prime_sieve(1000,[])[:22]
+prime_list = prime_sieve(1000, [])[:15]
+print prime_list
 
-p = 2**22
+p = 1260
 
 print number_of_poss_sols(p)
-
 print time.time() - t
