@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73dae1c-3d50-4c0a-b3a7-b49bc848a1a7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob491.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob493.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob203.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob401.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PEprob572.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/find_prime_factorization.py" afterPath="$PROJECT_DIR$/find_prime_factorization.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PEprob110.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PEprob110.py">
+      <file leaf-file-name="find_prime_factorization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="792">
+              <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob491.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PEprob491.py">
+      <file leaf-file-name="PEprob572.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PEprob572.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -37,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob493.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PEprob493.py">
+      <file leaf-file-name="PEprob203.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PEprob203.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -49,12 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PEprob1.py">
+      <file leaf-file-name="PEprob401.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PEprob401.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="209">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,9 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PEprob45.py" />
-        <option value="$PROJECT_DIR$/PEprob60.py" />
-        <option value="$PROJECT_DIR$/PEprob145.py" />
         <option value="$PROJECT_DIR$/PEprob51.py" />
         <option value="$PROJECT_DIR$/PEprob61.py" />
         <option value="$PROJECT_DIR$/PEprob63.py" />
@@ -123,15 +124,18 @@
         <option value="$PROJECT_DIR$/PEprob425.py" />
         <option value="$PROJECT_DIR$/PEprob463.py" />
         <option value="$PROJECT_DIR$/PEprob581.py" />
-        <option value="$PROJECT_DIR$/find_prime_factorization.py" />
         <option value="$PROJECT_DIR$/PEprob108.py" />
         <option value="$PROJECT_DIR$/PEprob110.py" />
         <option value="$PROJECT_DIR$/PEprob491.py" />
         <option value="$PROJECT_DIR$/PEprob493.py" />
+        <option value="$PROJECT_DIR$/PEprob572.py" />
+        <option value="$PROJECT_DIR$/find_prime_factorization.py" />
+        <option value="$PROJECT_DIR$/PEprob203.py" />
+        <option value="$PROJECT_DIR$/PEprob401.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1301" />
@@ -153,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +169,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,8 +187,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PEprob493">
-    <configuration name="PEprob108" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PEprob401">
+    <configuration name="PEprob203" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -196,13 +200,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob108.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob203.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PEprob110" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PEprob401" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -214,7 +218,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob110.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob401.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +260,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="find_prime_factorization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PEprob572" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -268,26 +272,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Project Euler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_prime_factorization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PEprob572.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.PEprob108" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PEprob110" />
-      <item index="2" class="java.lang.String" itemvalue="Python.find_prime_factorization" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PEprob491" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PEprob493" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PEprob491" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PEprob493" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PEprob572" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PEprob203" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PEprob401" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PEprob493" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PEprob491" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PEprob110" />
-        <item index="3" class="java.lang.String" itemvalue="Python.PEprob108" />
-        <item index="4" class="java.lang.String" itemvalue="Python.find_prime_factorization" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PEprob401" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PEprob203" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PEprob572" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PEprob493" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PEprob491" />
       </list>
     </recent_temporary>
   </component>
@@ -557,16 +561,24 @@
       <option name="project" value="LOCAL" />
       <updated>1522069638166</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="start 491,493">
+      <created>1522153356407</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1522153356407</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18388106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3457627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3446602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -605,7 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solved 19" />
     <MESSAGE value="Solved 97 &amp; 120" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Jellluuuz/ProjectEuler&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#10;solved 32" />
     <MESSAGE value="solved 387" />
@@ -630,7 +641,8 @@
     <MESSAGE value="Solve 108" />
     <MESSAGE value="start 110" />
     <MESSAGE value="110 attempts" />
-    <option name="LAST_COMMIT_MESSAGE" value="110 attempts" />
+    <MESSAGE value="start 491,493" />
+    <option name="LAST_COMMIT_MESSAGE" value="start 491,493" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,21 +651,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PEprob74.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p054_poker.txt" />
-    <entry file="file://$PROJECT_DIR$/PEpob54.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PEprob39.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -839,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PEprob108.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -952,11 +942,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PEprob110.py">
+    <entry file="file://$PROJECT_DIR$/PEprob493.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="317">
+          <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,15 +957,51 @@
         <state relative-caret-position="54">
           <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEprob110.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEprob572.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PEprob493.py">
+    <entry file="file://$PROJECT_DIR$/PEprob203.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="65" column="23" lean-forward="true" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEprob401.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

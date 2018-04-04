@@ -60,7 +60,7 @@ def get_prime_factors(n, primelist):
     own_num = n
     half_n = int(float(n)/2) + 1
     if primelist is None:
-        primelist = prime_sieve(n,output=[])
+        primelist = prime_sieve(n, output=[])
 
     fs = []
     for p in primelist:
