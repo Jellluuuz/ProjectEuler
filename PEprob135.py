@@ -16,15 +16,21 @@ def divisorgenerator(m):
 t = time.time()
 
 som = 0
-for n in range(10**3, 10**6):
+for n in range(10**1, 10**6):
     divisors = list(divisorgenerator(n))
     count = 0
+    temp = []
     for i in divisors:
         if (n/i + i) % 4 == 0:
             if i - (n/i + i)/4 > 0:
-                count += 1
+                if n == 100:
+                    temp.append(i)
+                    count += 1
     if count == 10:
         som += 1
+    if n == 100:
+        print n, temp
+
 print som
 
 
