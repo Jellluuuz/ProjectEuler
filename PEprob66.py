@@ -1,17 +1,27 @@
 import time
+import math
+import gmpy
+
+##iets met continued fractioned van D
+
+def find_minimal_sol(n):
+    j = 1
+    while True:
+        i_2 = 1 + n * j ** 2
+        if gmpy.is_square(i_2):
+            i = math.sqrt(i_2)
+            print i, j, n
+            return i
+        j += 1
 
 
-def find_minimal_sol(D):
-    for i in range(1,3000):
-        for j in range(1,10000):
-            if i**2 - D * j**2 == 1:
-                return i
-    print 'NIKS GEVONDEN YO'
 t = time.time()
-results = []
-squares = [x**2 for x in range(1,32)]
 
-Ds = [x for x in range(1,1001) if x not in squares]
+results = []
+squares = [x**2 for x in range(1, 32)]
+
+Ds = [x for x in range(1, 1001) if x not in squares]
+
 
 for D in Ds:
     print D
