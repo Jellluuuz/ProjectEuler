@@ -13,17 +13,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="find_prime_factorization.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="find_prime_factorization.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
+            <state relative-caret-position="470">
               <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PEprob581.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PEprob581.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PEprob581.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -521,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525800799129</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=".">
+      <created>1525800819624</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1525800819624</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -585,7 +592,6 @@
     <MESSAGE value="solved 17" />
     <MESSAGE value="solved 27" />
     <MESSAGE value="solved 31" />
-    <MESSAGE value="." />
     <MESSAGE value="solve 56, attempt 57" />
     <MESSAGE value="solved 58" />
     <MESSAGE value="attempt 82" />
@@ -595,7 +601,8 @@
     <MESSAGE value="attempt 70" />
     <MESSAGE value="solved 463" />
     <MESSAGE value="start 581" />
-    <option name="LAST_COMMIT_MESSAGE" value="start 581" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -911,14 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PEprob581.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -926,6 +925,14 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_prime_factorization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
