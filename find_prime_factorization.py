@@ -57,8 +57,10 @@ def get_factors(n, primelist=None):
 # ex: get_prime_factors(140) -> ((2,2), (5,1), (7,1))
 #     140 = 2^2 * 5^1 * 7^1
 def get_prime_factors(n, primelist):
+    own_num = n
+    half_n = int(float(n)/2) + 1
     if primelist is None:
-        primelist = prime_sieve(n,output=[])
+        primelist = prime_sieve(n, output=[])
 
     fs = []
     for p in primelist:
@@ -70,8 +72,13 @@ def get_prime_factors(n, primelist):
             fs.append((p, count))
         if n == 1:
             return fs
+        if p > half_n:
+            fs.append((own_num, 1))
+            return fs
 
-    return fs
+
+
+    #return fs
 
 
 def is_prime(n,primes_list):
