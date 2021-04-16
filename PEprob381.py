@@ -1,36 +1,38 @@
 from find_prime_factorization import prime_sieve
-import math
 import time
 
 
-def mod_fact(n, p):
-    mod_fact = 1
-    while n > 1:
-        mod_fact *= n
-        mod_fact = mod_fact % p
-        n -= 1
-    return mod_fact
+#Wilson's Theorem is key!
+
+def test_final(p):
+    pthree = (p-1)/2 % p
+    tempthree = (p-1)/2
+
+    while True:
+        if tempthree % 3 == 0:
+            pfour = (-tempthree/3) % p
+            tempfour = pfour % p
+            break
+        else:
+            tempthree += p
+    while True:
+        if tempfour % 4 == 0:
+            pfive = (-tempfour/4) % p
+            break
+        else:
+            tempfour += p
+
+    return (pthree +pfour + pfive) % p
 
 
-def prime_k_fact(p):
-    s = 0
-    temp = mod_fact(p-5, p)
-    for k in range(5)[::-1]:
-        s += temp
-        temp *= (p-k) % p
-    return s % p
+t_start = time.time()
+prime_list = prime_sieve(10**8, [])[2:]
 
-t = time.time()
+t1 = time.time()
 
-
-# hogere priemgetallen duurt lang
-prime_list = prime_sieve(10**4, [])[2:]
-
-total_sum = 0
+final = 0
 for p in prime_list:
-    total_sum += prime_k_fact(p)
+    final += test_final(p)
+print final
 
-print total_sum
-
-print time.time() - t
-
+print time.time() - t1, time.time() - t_start
