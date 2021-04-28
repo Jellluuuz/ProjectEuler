@@ -41,7 +41,7 @@ def find_largest_quotient(n):
 
 
 t = time.time()
-print find_largest_quotient(20000)
+print find_largest_quotient(25000)
 #print totient_function(113)
 #print direct_totient_function(113)
 print time.time() - t
